@@ -14,6 +14,7 @@ function LayoutRoutes() {
     <Router>
       <Header />
       <Routes>
+      <Route path='/' element={<Home />} />
         <Route path='/edutech-web' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/plans' element={<Plans />} />
